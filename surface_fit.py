@@ -18,7 +18,7 @@ A0 = float(input("What is the value of Area (A)=? "))
 C11 = 2*coeffs[0]/A0*16
 C22 = 2*coeffs[1]/A0*16
 C12 = coeffs[2]/A0*16
-C66 = (C11 - C22)/2
+C66 = (C11 - C12)/2
 print('')
 print('\033[91m' + 'Elastic constants:' + '\033[0m')
 print('')
